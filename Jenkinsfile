@@ -4,6 +4,7 @@ pipeline {
     tools {
         nodejs "node"
         maven "mvn"
+        jdk "openjdk-11"
     }
 
     stages {
