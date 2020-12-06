@@ -16,29 +16,25 @@ pipeline {
             
         stage('Build backend') {
             steps {
-                sh 'cd backend'
-                sh 'mvn clean install -DskipTests'
+                sh '(cd backend; mvn clean install -DskipTests)'
             }
         }
 
         stage('Build frontend') {
             steps {
-                sh 'cd frontend'
-                sh 'npm install'
+                sh '(cd frontend; npm install)'
             }
         }
 
         stage('Test backend') {
             steps {
-                sh 'cd backend'
-                sh 'mvn test'
+                sh '(cd backend; mvn test)'
             }
         }
             
         stage('Test frontend') {
             steps {
-                sh 'cd frontend'
-                sh 'npm test'
+                sh '(cd frontend; npm test)'
             }
         }      
     }
