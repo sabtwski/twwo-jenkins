@@ -10,7 +10,7 @@ pipeline {
         
     stage('Cloning Git') {
         steps {
-            git 'git@github.com:dwawrzyniak1/piisw-projekt.git'
+            git 'https://github.com/sabtwski/twwo-jenkins'
         }
     }
         
