@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "status": 200
+  },
+  "response": {
+    "hits": [
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 20,
+          "api_path": "/songs/3039923",
+          "full_title": "HUMBLE. by Kendrick Lamar",
+          "header_image_thumbnail_url": "https://images.genius.com/0780c76f8d3ab762a0ad67ac26fa9709.300x169x1.jpg",
+          "header_image_url": "https://images.genius.com/0780c76f8d3ab762a0ad67ac26fa9709.1000x563x1.jpg",
+          "id": 3039923,
+          "lyrics_owner_id": 104344,
+          "lyrics_state": "complete",
+          "path": "/Kendrick-lamar-humble-lyrics",
+          "pyongs_count": 1052,
+          "song_art_image_thumbnail_url": "https://images.genius.com/4387b0bcc88e07676997ba73793cc73c.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/4387b0bcc88e07676997ba73793cc73c.1000x1000x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "concurrents": 5,
+            "hot": false,
+            "pageviews": 10565155
+          },
+          "title": "HUMBLE.",
+          "title_with_featured": "HUMBLE.",
+          "url": "https://genius.com/Kendrick-lamar-humble-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/1421",
+            "header_image_url": "https://images.genius.com/f3a1149475f2406582e3531041680a3c.1000x800x1.jpg",
+            "id": 1421,
+            "image_url": "https://images.genius.com/25d8a9c93ab97e9e6d5d1d9d36e64a53.1000x1000x1.jpg",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "Kendrick Lamar",
+            "url": "https://genius.com/artists/Kendrick-lamar",
+            "iq": 41496
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 20,
+          "api_path": "/songs/3039923",
+          "full_title": "Test. by TEST",
+          "header_image_thumbnail_url": "https://images.genius.com/0780c76f8d3ab762a0ad67ac26fa9709.300x169x1.jpg",
+          "header_image_url": "https://images.genius.com/0780c76f8d3ab762a0ad67ac26fa9709.1000x563x1.jpg",
+          "id": 3039923,
+          "lyrics_owner_id": 104344,
+          "lyrics_state": "complete",
+          "path": "/Test-lyrics",
+          "pyongs_count": 1052,
+          "song_art_image_thumbnail_url": "https://images.genius.com/4387b0bcc88e07676997ba73793cc73c.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/4387b0bcc88e07676997ba73793cc73c.1000x1000x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "concurrents": 5,
+            "hot": false,
+            "pageviews": 10565155
+          },
+          "title": "TEST!.",
+          "title_with_featured": "HUMBLE.",
+          "url": "https://genius.com/Test-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/1421",
+            "header_image_url": "https://images.genius.com/f3a1149475f2406582e3531041680a3c.1000x800x1.jpg",
+            "id": 1421,
+            "image_url": "https://images.genius.com/25d8a9c93ab97e9e6d5d1d9d36e64a53.1000x1000x1.jpg",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "TEST TEST TEST",
+            "url": "https://genius.com/artists/Kendrick-lamar",
+            "iq": 41496
+          }
+        }
+      },
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "annotation_count": 20,
+          "api_path": "/songs/3039923",
+          "full_title": "Test. by TEST",
+          "header_image_thumbnail_url": "https://images.genius.com/0780c76f8d3ab762a0ad67ac26fa9709.300x169x1.jpg",
+          "header_image_url": "https://images.genius.com/0780c76f8d3ab762a0ad67ac26fa9709.1000x563x1.jpg",
+          "id": 3039923,
+          "lyrics_owner_id": 104344,
+          "lyrics_state": "complete",
+          "path": "/Test-lyrics",
+          "pyongs_count": 1052,
+          "song_art_image_thumbnail_url": "https://images.genius.com/4387b0bcc88e07676997ba73793cc73c.300x300x1.jpg",
+          "song_art_image_url": "https://images.genius.com/4387b0bcc88e07676997ba73793cc73c.1000x1000x1.jpg",
+          "stats": {
+            "unreviewed_annotations": 0,
+            "concurrents": 5,
+            "hot": false,
+            "pageviews": 10565155
+          },
+          "title": "TEST!.",
+          "title_with_featured": "HUMBLE.",
+          "url": "https://genius.com/Test-lyrics",
+          "primary_artist": {
+            "api_path": "/artists/1421",
+            "header_image_url": "https://images.genius.com/f3a1149475f2406582e3531041680a3c.1000x800x1.jpg",
+            "id": 1421,
+            "image_url": "https://images.genius.com/25d8a9c93ab97e9e6d5d1d9d36e64a53.1000x1000x1.jpg",
+            "is_meme_verified": true,
+            "is_verified": true,
+            "name": "TEST TEST TEST",
+            "url": "https://genius.com/artists/Kendrick-lamar",
+            "iq": 41496
+          }
+        }
+      }
+    ]
+  }
+}

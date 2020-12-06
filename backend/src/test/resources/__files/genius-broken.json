@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "status": 200
+  },
+  "response": {
+    "hits": [
+      {
+        "highlights": [],
+        "index": "song",
+        "type": "song",
+        "result": {
+          "title": "TEST!.",
+          "definitely-not-ulr": "https://genius.com/Test-lyrics",
+          "primary_artist": {
+            "there-should-be-name": "TEST TEST TEST"
+          }
+        }
+      }
+    ]
+  }
+}
