@@ -4,28 +4,41 @@ pipeline {
     tools {
         nodejs "node"
         maven "mvn"
-        jdk "openjdk-11"
     }
 
     stages {
 
-        stage('Cloning Git') {
+        stage('Cloning Git repository') {
             steps {
                 git 'https://github.com/sabtwski/twwo-jenkins'
             }
         }
             
-        stage('Install dependencies') {
+        stage('Build backend') {
             steps {
-                sh '(cd backend; mvn clean install -DskipTests)'
-                sh '(cd frontend; npm install)'
+                sh 'cd backend'
+                sh 'mvn clean install -DskipTests)'
+            }
+        }
+
+        stage('Build frontend') {
+            steps {
+                sh 'cd frontend'
+                sh 'npm install'
+            }
+        }
+
+        stage('Test backend') {
+            steps {
+                sh 'cd backend'
+                sh 'mvn test'
             }
         }
             
-        stage('Test') {
+        stage('Test frontend') {
             steps {
-                sh '(cd backend; mvn test)'
-                sh '(cd frontend; npm test)'
+                sh 'cd frontend'
+                sh 'npm test'
             }
         }      
     }
